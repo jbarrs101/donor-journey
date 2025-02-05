@@ -2,15 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_1", frames: [[0,540,1029,616],[0,0,1187,538],[1031,540,801,343]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_2", frames: [[0,852,1363,694],[0,0,1175,850]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_3", frames: [[0,0,1439,734],[0,736,1346,774]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_4", frames: [[0,970,1194,890],[0,0,1223,968]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_5", frames: [[0,0,1177,1438]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_6", frames: [[0,0,1432,1202]]},
-		{name:"4153PS Donor Journey Website Infographic round 03_atlas_7", frames: [[0,0,1120,1554]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -40,87 +32,75 @@ p.nominalBounds = new cjs.Rectangle(0,0,1920,4200);
 
 
 (lib.popup_01 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_01);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1029,616);
 
 
 (lib.popup_02 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_02);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1194,890);
 
 
 (lib.popup_03 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_03);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1187,538);
 
 
 (lib.popup_04 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_04);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1120,1554);
 
 
 (lib.popup_05 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_05);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1177,1438);
 
 
 (lib.popup_06 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_06);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1223,968);
 
 
 (lib.popup_07 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_07);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1439,734);
 
 
 (lib.popup_08 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_08);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1346,774);
 
 
 (lib.popup_09 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_09);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,801,343);
 
 
 (lib.popup_10 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1363,694);
 
 
 (lib.popup_11 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1432,1202);
 
 
 (lib.popup_12 = function() {
-	this.initialize(ss["4153PS Donor Journey Website Infographic round 03_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.popup_12);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1175,850);
 
 
 (lib.popup_12_image = function(mode,startPosition,loop,reversed) {
@@ -561,7 +541,12 @@ if (reversed == null) { reversed = false; }
 	this.Popup_11_movie.setTransform(1061.3,1201.35,0.0613,0.0613,0,0,0,1061.3,1201.5);
 	this.Popup_11_movie.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.Popup_11_movie).to({regX:1061.2,regY:1201.3,scaleX:1,scaleY:1,x:1061.2,y:1201.3,alpha:1,mode:"synched",startPosition:0},9).to({regX:1061.4,regY:1200.8,scaleX:0.0448,scaleY:0.0448,x:1061.3,alpha:0},10).wait(1));
+	this.instance = new lib.popup_11_image("synched",0);
+	this.instance.setTransform(1061.2,1201.3,1,1,0,0,0,1061.2,1201.3);
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.Popup_11_movie).to({_off:true,regX:1061.2,regY:1201.3,scaleX:1,scaleY:1,x:1061.2,y:1201.3,alpha:1,mode:"synched",startPosition:0},9).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:false},9).to({regX:1061.4,regY:1200.8,scaleX:0.0448,scaleY:0.0448,x:1061.3,alpha:0},10).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1077,7 +1062,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1029,616);
 
 
 // stage content:
-(lib._4153PSDonorJourneyWebsiteInfographicround03 = function(mode,startPosition,loop,reversed) {
+(lib._4153PSDonorJourneyWebsiteInfographicround04 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1100,50 +1085,53 @@ if (reversed == null) { reversed = false; }
 		}
 		var _this = this;
 		
-		// Define arrays for buttons and MovieClips (start with your existing ones)
-		var buttons = [_this.button_01, _this.button_02, _this.button_03, _this.button_04, _this.button_05, _this.button_06, _this.button_07, _this.button_08, _this.button_09, _this.button_10, _this.button_11, _this.button_12];  // Add button instances here
-		var movieClips = [_this.popup_01, _this.popup_02, _this.popup_03, _this.popup_04, _this.popup_05, _this.popup_06, _this.popup_07, _this.popup_08, _this.popup_09, _this.popup_10, _this.popup_11, _this.popup_12]; // Add corresponding MovieClips here
+		// Define arrays for buttons and MovieClips
+		var buttons = [_this.button_01, _this.button_02, _this.button_03, _this.button_04, _this.button_05, _this.button_06, _this.button_07, _this.button_08, _this.button_09, _this.button_10, _this.button_11, _this.button_12];  
+		var movieClips = [_this.popup_01, _this.popup_02, _this.popup_03, _this.popup_04, _this.popup_05, _this.popup_06, _this.popup_07, _this.popup_08, _this.popup_09, _this.popup_10, _this.popup_11, _this.popup_12]; 
 		
-		// Function to reset all MovieClips to their closed state
+		var lastClickedIndex = -1; // Track the last clicked button index
+		
+		// Function to reset all MovieClips
 		function resetAllMovieClips() {
 		    for (var i = 0; i < movieClips.length; i++) {
-		        movieClips[i].gotoAndStop(1); // Reset to frame 1
-		        movieClips[i].alpha = 0;      // Ensure they are invisible
+		        movieClips[i].gotoAndStop(1); 
+		        movieClips[i].alpha = 0;     
 		    }
 		}
 		
 		// Button click handling
 		for (let i = 0; i < buttons.length; i++) {
 		    buttons[i].on('click', function(event) {
-		        var index = buttons.indexOf(event.target); // Find which button was clicked
-		        resetAllMovieClips(); // Reset all MovieClips
-		
-		        // Get the clicked MovieClip
+		        var index = buttons.indexOf(event.target);
 		        var clickedMovieClip = movieClips[index];
 		
-		        // Play the selected MovieClip based on its state
-		        if (clickedMovieClip.currentFrame < 10) {
-		            clickedMovieClip.alpha = 1; // Make it visible
-		            clickedMovieClip.play();    // Play from the opening animation
+		        // If the same button is clicked while its popup is open, close it
+		        if (lastClickedIndex === index && clickedMovieClip.alpha === 1) {
+		            clickedMovieClip.gotoAndPlay(11); // Play closing animation
+		            lastClickedIndex = -1; // Reset tracking
 		        } else {
-		            clickedMovieClip.gotoAndPlay(11); // Play from frame 11 to 20 (closing animation)
+		            resetAllMovieClips(); // Close all popups
+		            clickedMovieClip.alpha = 1; 
+		            clickedMovieClip.play();    
+		            lastClickedIndex = index; // Update tracking
 		        }
 		    });
 		
-		    // Add click handling to the corresponding MovieClip to allow it to close itself
+		    // Allow the MovieClip itself to close when clicked
 		    movieClips[i].on('click', function() {
 		        if (this.currentFrame < 10) {
-		            this.gotoAndPlay(11); // Play the closing animation
+		            this.gotoAndPlay(11);
+		            lastClickedIndex = -1; // Reset tracking
 		        }
 		    });
 		}
 		
-		// Add tick listeners for each MovieClip to reset to frame 1 after finishing
+		// Add tick listeners to reset popups after closing animation
 		for (var i = 0; i < movieClips.length; i++) {
 		    movieClips[i].on('tick', function() {
 		        if (this.currentFrame === 20) {
-		            this.gotoAndStop(1);  // Reset to closed state
-		            this.alpha = 0;       // Make sure it's invisible
+		            this.gotoAndStop(1);
+		            this.alpha = 0;
 		        }
 		    });
 		}
@@ -1317,14 +1305,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/background.png?1737645965505", id:"background"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_1.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_1"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_2.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_2"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_3.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_3"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_4.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_4"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_5.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_5"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_6.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_6"},
-		{src:"images/4153PS Donor Journey Website Infographic round 03_atlas_7.png?1737645965382", id:"4153PS Donor Journey Website Infographic round 03_atlas_7"}
+		{src:"images/background.png", id:"background"},
+		{src:"images/popup_01.png", id:"popup_01"},
+		{src:"images/popup_02.png", id:"popup_02"},
+		{src:"images/popup_03.png", id:"popup_03"},
+		{src:"images/popup_04.png", id:"popup_04"},
+		{src:"images/popup_05.png", id:"popup_05"},
+		{src:"images/popup_06.png", id:"popup_06"},
+		{src:"images/popup_07.png", id:"popup_07"},
+		{src:"images/popup_08.png", id:"popup_08"},
+		{src:"images/popup_09.png", id:"popup_09"},
+		{src:"images/popup_10.png", id:"popup_10"},
+		{src:"images/popup_11.png", id:"popup_11"},
+		{src:"images/popup_12.png", id:"popup_12"}
 	],
 	preloads: []
 };
